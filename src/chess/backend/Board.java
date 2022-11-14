@@ -2,6 +2,7 @@ package chess.backend;
 
 import java.awt.Color;
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * Keeps track of the board and which player is currently moving.
