@@ -6,7 +6,18 @@ import java.util.Random;
 
 /**
  * Keeps track of the board and which player is currently moving.
+ * Randomly put one rook on the board
+ * Randomly put the other rook on the board not next to the other one 
+ * Randomly place the kind between those two rooks
+ * Randomly put one bishop on the board on one color
+ * randomly put the other bishop on the board on the opposite color from the other one
+ * Randomly put one knight on the board
+ * Randomly put the other knight on the board
+ * Randomly put the queen on the board
+ * Mirror the placement of pieces for the black piece side
+ * unit tests for everything
  */
+
 public final class Board {
     public static final int BOARD_LENGTH = 8;
     public static final int BOARD_WIDTH = 8;
